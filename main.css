@@ -1,0 +1,77 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background: cornsilk;
+}
+.navbar
+{
+    background: ghostwhite;
+}
+.nav-link, .navbar-brand
+{
+    color: black;
+    cursor: pointer;
+}
+.nav-link
+{
+    margin-right: 3em !important;
+}
+.nav-link:hover
+{
+    color: black;
+}
+.navbar-collapse
+{
+    justify-content: flex-end;
+}
+.header
+{
+    background-image: url('https://images.wallpaperscraft.ru/image/nissan_gtr_nissan_sportkar_139668_3840x2400.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.description
+{
+    left: 50%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    color: ghostwhite;
+}
+.description h1
+{
+    color: rgb(245, 245, 245);
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+}
+.description input
+{
+    border-radius: 50vh;
+    width: 700px;
+    text-align: center;
+}
+.team 
+{
+    left: 40%;
+    color: #5e5e55;
+    padding: 0 150px;
+}
+.team .card 
+{
+    background:none;
+    border: none;
+}
+.team .card-title 
+{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: ghostwhite;
+}
+a
+{
+    color:ghostwhite;
+}
