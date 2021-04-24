@@ -1,77 +1,144 @@
-body
+body 
 {
     padding: 0;
     margin: 0;
-    background: cornsilk;
+    background:black;
 }
-.navbar
+.navbar 
 {
-    background: ghostwhite;
-}
-.nav-link, .navbar-brand
-{
-    color: black;
-    cursor: pointer;
+    background:black
 }
 .nav-link
 {
-    margin-right: 3em !important;
+    color: blue;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
 }
-.nav-link:hover
+.navbar-brand 
 {
-    color: black;
+    color:chartreuse;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
 }
-.navbar-collapse
+.nav-link 
+{
+    margin-right: 1em !important;
+}
+.nav-link:hover 
+{
+    color:crimson;
+}
+.navbar-collapse 
 {
     justify-content: flex-end;
 }
 .header
 {
-    background-image: url('https://images.wallpaperscraft.ru/image/nissan_gtr_nissan_sportkar_139668_3840x2400.jpg');
+    background-image: url('https://cdn.hipwallpaper.com/i/64/83/yv7tuo.gif');
     background-size: cover;
     background-position: center;
     position: relative;
 }
-.description
+.description 
 {
     left: 50%;
     position: absolute;
-    top: 60%;
+    top: 45%;
     transform: translate(-50%, -55%);
-    text-align: center;
-    color: ghostwhite;
+    text-align: justify;
+    font-family: 'New Tegomin', serif;
 }
-.description h1
+.description h2
 {
-    color: rgb(245, 245, 245);
-    font-size: 70px;
-    font-family: 'Oswald', sans-serif;
+    color: #0a0ee0;
 }
-.description input
+.description p 
 {
-    border-radius: 50vh;
-    width: 700px;
-    text-align: center;
+    color: rgb(12, 220, 235);
+    font-size: 1.3rem;
+    line-height: 1.5;
 }
-.team 
+.description button 
 {
-    left: 40%;
-    color: #5e5e55;
-    padding: 0 150px;
+    border-radius: 30%;
+    color:#fff;
 }
-.team .card 
+.description button:hover 
 {
-    background:none;
-    border: none;
+    border:1px solid #fff;
+    background:#fff;
+    color:rgb(59, 197, 25);
 }
-.team .card-title 
+.features 
 {
-    font-size: 1.2rem;
-    margin-bottom: 0;
+    color: #fff;
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    text-align: justify;
+}
+.feature-title 
+{
+    color:#fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
     text-transform: uppercase;
-    color: ghostwhite;
 }
-a
+.features img 
 {
-    color:ghostwhite;
+    -webkit-box-shadow: 1px 1px 4px rgb(252, 252, 252);
+    -moz-box-shadow: 1px 1px 4px rgb(243, 232, 232);
+    box-shadow: 1px 1px 4px rgb(243, 235, 235);
+    margin-bottom: 16px;
+}
+#demo-modal .modal-content 
+{
+    border-radius: 0;
+    padding: 2rem;
+}
+#demo-modal .modal-header 
+{
+    border-bottom: none;
+}
+#demo-modal h4 
+{
+    color: #000;
+    font-size: 30px;
+    margin: 0 0 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Zen Dots', cursive;
+}
+#demo-modal .close 
+{
+    background: #c0c3c8;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 19px;
+    font-weight: normal;
+    height: 30px;
+    opacity: 0.5;
+    padding: 0;
+    position: absolute;
+    right: 26px;
+    text-align: center;
+    top: 26px;
+    width: 30px;
+}
+#demo-modal .close span 
+{
+    position: relative;
+    top: -3px;
+}
+#demo-modal .modal-body p 
+{
+    color: #999;
+}
+#demo-modal p 
+{
+    margin: 0 0 25px;
+    text-transform: capitalize;
+    font-family: 'Zen Dots', cursive;
 }
